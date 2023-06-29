@@ -5,7 +5,9 @@
 
 class ATank : public Entity
 {
+    double heal_point;
 public:
+    void update();
     ATank();
 };
 

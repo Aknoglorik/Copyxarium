@@ -14,14 +14,18 @@ SOURCES += \
     source/main.cpp \
     source/mainwindow.cpp \
     source/player.cpp \
+    source/road.cpp \
     source/tillemap.cpp \
+    source/wall.cpp
 
 HEADERS += \
     source/atank.h \
     source/entity.h \
     source/mainwindow.h \
     source/player.h \
+    source/road.h \
     source/tillemap.h \
+    source/wall.h
 
 FORMS += \
     source/mainwindow.ui
